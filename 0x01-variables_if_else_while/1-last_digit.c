@@ -24,13 +24,11 @@ int main(void)
 	printf("Number is %d", n);
 	/* your code goes heer */
 	last_digit = (n % 10);
-
-	printf(" last digit is %d\n", last_digit);
 	if (last_digit > 5)
-		printf("%d and is greater than 5\n", last_digit);
+		printf("Last digit of %d is %d and is greater than 5\n", n,  last_digit);
 	else if (last_digit == 0)
-		printf("%d and is 0", last_digit);
+		printf("Last digit of %d is %d and is 0", n, last_digit);
 	else if ((last_digit < 6) & (last_digit != 0))
-		printf("%d and is less than 6 and not 0\n", last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
 	return (0);
 }
