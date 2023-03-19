@@ -12,17 +12,17 @@
 int main(void)
 {
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
-	int len = strlen(alphabets) + 1;
+	int len = strlen(alphabets);
 	int counter = 0;
 
-	while (counter < len)
+	while ((len + 1) != counter)
 	{
 		char letter;
 
 		if (counter == 0)
-			letter = alphabets[(len - 1)];
+			letter = alphabets[len];
 		else
-			letter = alphabets[(len - (counter + 1))];
+			letter = alphabets[(len - counter)];
 
 		putchar(letter);
 		counter++;
