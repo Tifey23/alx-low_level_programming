@@ -13,8 +13,9 @@ int main(void)
 {
 	char alphabets[] = "abcdefghijklmopqrstuvwxyz";
 	int len = strlen(alphabets);
+	int i = 0 ;
 
-	for (int i = 0; i < len; i++)
+	for (i = 0; i < len; i++)
 	{
 		char l = alphabets[i];
 
