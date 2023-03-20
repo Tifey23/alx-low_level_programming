@@ -2,7 +2,8 @@
 
 /**
  * main - Entry
- * Description: Using the sizeof functiion
+ *
+ * Description: 'Using the sizeof functiion'
  *
  * Result: Always 0(success)
  */
@@ -15,10 +16,10 @@ int main(void)
 	long long int longerInteger;
 	float Decimal;
 
-	printf("Size of a char: %d byte(s)", sizeof(l));
-	printf("Size of an int: %d byte(s)", sizeof(number));
-	printf("Size of a long int: %d byte(s)", sizeof(longinteger));
-	printf("Size of a long long int: %d byte(s)", sizeof(longerInteger));
-	printf("Size of a float: %c byte(s)", sizeof(Decimal));
+	printf("Size of a char: %d byte(s)\n", sizeof(l));
+	printf("Size of an int: %d byte(s)\n", sizeof(number));
+	printf("Size of a long int: %d byte(s)\n", sizeof(longinteger));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(longerInteger));
+	printf("Size of a float: %d byte(s)\n", sizeof(Decimal));
 	return (0);
 }
