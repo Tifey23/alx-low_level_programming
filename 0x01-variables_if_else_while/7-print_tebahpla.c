@@ -15,7 +15,7 @@ int main(void)
 	int len = strlen(alphabets);
 	int counter = 0;
 
-	while ((len + 1) != counter)
+	while ((len + 1) > counter)
 	{
 		char letter;
 
