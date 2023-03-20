@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * main - Entry point
  *
  * Description: 'Using the sizeof functiion'
  *
- * Result: Always 0(success)
+ * Return: Always 0(success)
  */
 
 int main(void)
