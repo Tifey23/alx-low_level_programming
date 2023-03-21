@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -11,6 +12,16 @@
 
 int main(void)
 {
-	printf("-putchar\n");
+	char text[] = "-putchar";
+	int len = strlen(text);
+	int counter;
+
+	for (counter = 0; counter < len; counter++)
+	{
+		char letter = text[counter];
+
+		_putchar(letter);
+	}
+	_putchar('\n');
 	return (0);
 }

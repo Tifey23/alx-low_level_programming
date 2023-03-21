@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * printLowercase - Print all lowercase letters
@@ -19,9 +20,9 @@ void printLowercase(void)
 	{
 		char letter = alphabets[counter];
 
-		putchar(letter);
+		_putchar(letter);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
 /**

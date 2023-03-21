@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 
 /**
  * main - Entry Point
@@ -19,8 +20,8 @@ int main(void)
 	{
 		char letter = alphabets[i];
 
-		putchar(letter);
+		_putchar(letter);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return  (0);
 }
