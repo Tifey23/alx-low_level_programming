@@ -15,12 +15,16 @@ void print_alphabet_x10(void)
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int len = strlen(alphabets);
 	int counter = 0;
+	int range = 10;
 
-	for (counter = 0; counter < len; counter++)
+	for (counter = 0; counter < range; counter++)
 	{
-		char letter = alphabets[counter];
+		for (counter = 0; counter < len; counter++)
+		{
+			char letter = alphabets[counter];
 
-		_putchar(letter);
+			_putchar(letter);
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
