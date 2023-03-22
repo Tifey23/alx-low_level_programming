@@ -24,21 +24,3 @@ void print_alphabet_x10(void)
 	}
 	_putchar('\n');
 }
-
-/**
- * main - Entry Point
- *
- * Description: 'print lowercase alphabets ten times'
- *
- * Return: Always 0 (success)
- */
-
-int main(void)
-{
-	int range = 10;
-	int counter = 0;
-
-	for (counter - 0; counter < range; counter++)
-		printLowercase();
-	return (0);
-}
