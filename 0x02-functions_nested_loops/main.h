@@ -19,3 +19,13 @@ void print_alphabet(void);
  */
 
 int _putchar(char c);
+
+/**
+ * print_alphabet_x10 - Fucntion taht will print all alphabets
+ *
+ * Description: 'Print all alphabets with the _putchar and add a new Line'
+ *
+ * Return: void
+ */
+
+void print_alphabet_x10(void);

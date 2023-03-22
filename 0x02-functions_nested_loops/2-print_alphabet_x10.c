@@ -3,14 +3,14 @@
 #include "main.h"
 
 /**
- * printLowercase - Print all lowercase letters
+ * print_alphabet_x10 - Print all lowercase letters
  *
  *  Description: 'Print all alphabets in lowercase and add a new line'
  *
  *  Return: void
  */
 
-void printLowercase(void)
+void print_alphabet_x10(void)
 {
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int len = strlen(alphabets);
