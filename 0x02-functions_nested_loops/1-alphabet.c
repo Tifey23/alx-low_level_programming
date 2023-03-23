@@ -1,16 +1,15 @@
-#include <stdio.h>
 #include <string.h>
 #include "main.h"
 
 /**
- * main - Entry Point
+ * print_alphabet - Entry Point
  *
  * Description: 'Print all alphabets in lowercase'
  *
- * Return:  Always 0 (success)
+ * Return:  Void
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 	int len = strlen(alphabets);
@@ -23,5 +22,4 @@ int main(void)
 		_putchar(letter);
 	}
 	_putchar('\n');
-	return  (0);
 }
