@@ -1,14 +1,14 @@
 #include <unistd.h>
 
 /**
- * printLowercase - prototype
+ * _isupper - prototype
  *
  * Description: 'Prototype for print lowercase function'
  *
- * Return: void
+ * Return: Int val
  */
 
-void print_alphabet(void);
+int _isupper(int c);
 
 /**
  * _putchar - writes the character c to stdout
@@ -27,5 +27,3 @@ int _putchar(char c);
  *
  * Return: void
  */
-
-void print_alphabet_x10(void);
